@@ -1,6 +1,6 @@
 
 .btn{
-
+    &, //also applies to btn 
     &:link,
     &:visited{
     text-transform: uppercase;
@@ -11,6 +11,10 @@
     transition: all 200ms;
     position: relative;
     font-size: $default-font-size;
+
+    //changes for <button> el
+    border: none;
+    cursor: pointer;
     }
     
     &:hover{
